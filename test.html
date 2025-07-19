@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Overlay</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            position: relative;
+            background: url('your-background-image.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .footer-overlay {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .footer-section {
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+
+        .footer-section h4 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #ddd;
+            font-size: 14px;
+            text-decoration: none;
+            line-height: 1.6;
+        }
+
+        .footer-section a:hover {
+            color: #fff;
+        }
+
+        .footer-icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .footer-icons a {
+            background: #fff;
+            color: #333;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.85);
+            font-size: 12px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-overlay">
+            <div class="footer-section">
+                <h4>Our Organization</h4>
+                <p>Empowering future tech leaders through innovation, collaboration, and excellence.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Programs</a></p>
+                <p><a href="#">Resources</a></p>
+                <p><a href="#">Payment Gateway</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <p><a href="#">Student Portal</a></p>
+                <p><a href="#">E-Library</a></p>
+                <p><a href="#">Course Materials</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="footer-icons">
+                    <a href="#">in</a>
+                    <a href="#">X</a>
+                    <a href="#">IG</a>
+                    <a href="#">T</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Launched by <strong>BUABASSAH-BOAFO LED ADMINISTRATION</strong><br>
+            © 2025 Your Organization. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
