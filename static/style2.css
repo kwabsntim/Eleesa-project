@@ -81,7 +81,9 @@
     border-radius: 10px;
     object-fit: cover;
   }
-  
+  .navbar{
+    margin-bottom: 30px;
+  }
   /* Responsive */
   @media (max-width: 768px) {
     .executive-cards {
