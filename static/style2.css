@@ -35,9 +35,8 @@
 .sidenavc a:hover {
     color: #ddd;
 }
-.hamburger{
-    color:black;
+.hamburger {
+    color: white;
     font-size: 40px;
-    margin-left: 2px;
-    margin-bottom:20px;
 }
+
