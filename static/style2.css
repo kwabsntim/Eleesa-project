@@ -35,3 +35,30 @@
 .sidenavc a:hover {
     color: #ddd;
 }
+.custom-hamburger {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    margin-right: 10px;
+}
+
+.custom-hamburger::before,
+.custom-hamburger::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.custom-hamburger::before {
+    top: -10px;
+}
+
+.custom-hamburger::after {
+    top: 10px;
+}
